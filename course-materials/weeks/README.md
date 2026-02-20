@@ -15,7 +15,7 @@ Each week folder contains lecture notes, slides, and hands-on exercises.
 
 | Week | Title | Subtitle | Materials |
 |------|-------|----------|-----------|
-| 5 | Testing AI-Generated Code | Why AI Code Needs More Testing | Coming Soon |
+| [5](week-05/) | Testing AI-Generated Code | Why AI Code Needs More Testing | Lecture + Slides |
 | 6 | Architecture & Design Patterns | Guiding AI Toward Good Patterns | Coming Soon |
 | 7 | Security & AI Vulnerabilities | Package Hallucination & Prompt Injection | Coming Soon |
 | 8 | Skills, Agents & Automation | Building Reusable AI Workflows | Coming Soon |
