@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI tool local settings
+.claude/
+.gemini/
+CLAUDE.md
+CLAUDE.local.md
+GEMINI.md
+AGENTS.md
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build artifacts
+.next/
+dist/
+build/
+
+# Temp files
+*.tmp
+.~lock.*
+
+# Internal
+_trash/
+scripts/
+COURSE_EVALUATION.md
