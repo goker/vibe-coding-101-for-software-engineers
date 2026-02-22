@@ -124,7 +124,7 @@ Production-ready applications with authentication, databases, and deployment.
 
 ## PRD Template Structure
 
-Every PRD in this library follows this structure:
+Most PRDs in this library follow this structure (a few early examples use a compact variant):
 
 ```markdown
 # PRD: [Project Name]

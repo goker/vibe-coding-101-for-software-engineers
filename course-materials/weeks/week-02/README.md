@@ -94,7 +94,7 @@ function queryDB(id) {
 
 | Tool | Free Tier |
 |------|-----------|
-| **Gemini CLI** | 1,500 requests/day (FREE) |
+| **Gemini CLI** | Free tier (check current quotas) |
 | **GitHub Copilot** | Free with GitHub Student Pack |
 | **Cursor Pro** | 1 year free for students |
 | **Bolt.new** | 300K daily tokens free |

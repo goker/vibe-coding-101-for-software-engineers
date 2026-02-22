@@ -97,8 +97,8 @@ Write a PRD and build a simple greeting CLI using Claude Code.
 - [CLAUDE.md Template](../../templates/claude-md-template.md)
 
 ### Support
-- Office hours: [Day/Time]
-- Course Discord: [Link]
+- Office hours: TBA (announced during the first week)
+- Course Discord: TBA (shared in class)
 
 ---
 

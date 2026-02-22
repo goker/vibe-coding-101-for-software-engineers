@@ -24,7 +24,7 @@ By the end of this week, you will:
 
 ## The Tweet That Started It All
 
-On **February 3, 2025**, Andrej Karpathy—co-founder of OpenAI and former AI leader at Tesla—posted a tweet that defined a new era:
+On **February 3, 2025**, Andrej Karpathy—former OpenAI researcher and former AI leader at Tesla—posted a tweet that defined a new era:
 
 > "There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
 
@@ -111,7 +111,7 @@ This course teaches **disciplined vibe coding** — the professional approach.
 
 ## Setting Up Your AI Coding Tools
 
-### Gemini CLI (FREE - 1,500 requests/day)
+### Gemini CLI (FREE tier)
 
 **macOS/Linux:**
 ```bash

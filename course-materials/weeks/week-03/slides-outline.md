@@ -145,7 +145,7 @@ Quality/Completeness
 | Project Type | FREE Tools | Paid Tools |
 |--------------|-----------|------------|
 | **Web App** | Bolt.new (free tier), v0 (free), Replit | Cursor ($20/mo), Lovable |
-| **CLI Tool** | Gemini CLI (FREE!), Claude Code (free tier) | Claude Max |
+| **CLI Tool** | Gemini CLI (FREE!), Claude Code | Claude Max |
 | **API/Backend** | Replit (free), Windsurf (free tier) | Cursor, Windsurf Pro |
 | **Mobile App** | Expo (FREE) + any AI tool | Replit Mobile |
 
@@ -385,7 +385,7 @@ claude "Debug this deployment error: [paste error]"
 - Gemini CLI (FREE, 1M context!): https://ai.google.dev/gemini-api/docs/quickstart
 - Bolt.new (free tier): https://bolt.new
 - v0 (free): https://v0.dev
-- Claude Code (free tier): https://claude.ai/code
+- Claude Code: https://claude.ai/code
 
 **Testing (FREE):**
 - Vitest: https://vitest.dev

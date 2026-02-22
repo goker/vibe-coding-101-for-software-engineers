@@ -395,13 +395,14 @@ for i in $(seq 1 5); do
     [ -f "run_$i/todo.py" ] && ((PASS++)) || ((FAIL++))
 
     # Check: Do tests pass?
-    cd "run_$i" && pytest -q && ((PASS++)) || ((FAIL++))
+    (
+      cd "run_$i" || exit 1
+      pytest -q
+    ) && ((PASS++)) || ((FAIL++))
 
     # Check: No external dependencies?
-    pip freeze > deps.txt
-    [ $(wc -l < deps.txt) -eq 0 ] && ((PASS++)) || ((FAIL++))
-
-    cd ..
+    ! grep -Eq '^(fastapi|requests|pandas|numpy)=' "run_$i/requirements.txt" \
+      && ((PASS++)) || ((FAIL++))
 done
 
 echo "Pass rate: $PASS / $((PASS + FAIL))"
@@ -480,6 +481,7 @@ Track eval scores over time.
 Save results to evals/history.json.
 """
 import json
+import os
 from datetime import datetime
 
 def run_eval_suite(project_dir):

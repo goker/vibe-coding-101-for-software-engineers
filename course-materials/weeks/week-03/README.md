@@ -30,13 +30,13 @@ Before we begin:
 
 **macOS/Linux:**
 ```bash
-npm install -g @anthropic-ai/gemini-cli
+npm install -g @google/gemini-cli
 gemini --version
 ```
 
 **Windows PowerShell:**
 ```powershell
-npm install -g @anthropic-ai/gemini-cli
+npm install -g @google/gemini-cli
 gemini --version
 ```
 
@@ -206,9 +206,9 @@ Want a deeper dive into writing effective PRDs? See the [How to Prepare a PRD](e
 
 | Resource | Description |
 |----------|-------------|
-| [Slides](extras/how-to-prepare-prd/slides/prd-preparation-slides.md) | 24-slide presentation covering all PRD sections |
+| [Slides (PDF)](<extras/how-to-prepare-prd/slides/How to Prepare a PRD By Goker Ezberci.pdf>) | Slide deck covering all PRD sections |
 | [Checklist](extras/how-to-prepare-prd/checklist.md) | One-page printable quality checklist |
-| [PPTX](extras/how-to-prepare-prd/slides/PRD-Preparation-Guide.pptx) | Google Slides importable version |
+| [PPTX](<extras/how-to-prepare-prd/slides/How to Prepare a PRD By Goker Ezberci.pptx>) | Editable presentation version |
 | [All Examples](../../templates/examples/) | 24 complete PRD examples |
 
 **Key insight:** AI cannot infer from omission. What you don't say, AI will invent.
@@ -265,7 +265,7 @@ But there's a wall at ~70% completeness:
 | Project Type | FREE Tools | Paid Options |
 |--------------|-----------|--------------|
 | **Web App (React/Next.js)** | Bolt.new, v0, Replit | Cursor ($20/mo), Lovable |
-| **CLI Tool** | Gemini CLI (FREE!), Claude Code (free tier) | Claude Max |
+| **CLI Tool** | Gemini CLI (FREE!), Claude Code | Claude Max |
 | **API/Backend** | Replit (free), Windsurf (free tier) | Cursor, Windsurf Pro |
 | **Mobile App** | Expo (FREE) + any AI tool | Replit Mobile |
 
@@ -513,7 +513,7 @@ Reflect on today:
 - **Gemini CLI (FREE, 1M context!):** https://ai.google.dev/gemini-api/docs/quickstart
 - **Bolt.new (free tier):** https://bolt.new
 - **v0 (free):** https://v0.dev
-- **Claude Code (free tier):** https://claude.ai/code
+- **Claude Code:** https://claude.ai/code
 
 ### Testing (FREE)
 - **Vitest:** https://vitest.dev

@@ -34,7 +34,7 @@
 
 ## Slide 4: Who is Andrej Karpathy?
 
-- Co-founder of OpenAI
+- Former OpenAI researcher
 - Former Director of AI at Tesla (Autopilot)
 - PhD from Stanford (computer vision)
 - Created popular deep learning courses
@@ -47,7 +47,7 @@
 
 ### Risks
 
-- **Hallucinations:** AI invents packages that don't exist (~20% of generated code!)
+- **Hallucinations:** AI can invent packages or APIs that don't exist
 - **AI Slop:** Code that looks right but doesn't work
 - **Security:** Slopsquatting attacks (malicious packages with hallucinated names)
 - **Tech Debt:** "Wide but shallow" code—hairballs that are hard to maintain
@@ -106,7 +106,7 @@ Why?
 
 ## Slide 10: The Six Essential Areas
 
-From analysis of 2,500+ agent configurations:
+From analysis of many agent configurations:
 
 1. **Commands** - Full commands with flags
 2. **Testing** - Framework, coverage, locations
@@ -130,7 +130,7 @@ claude
 
 **Gemini CLI (macOS/Linux):**
 ```bash
-npm install -g @anthropic-ai/gemini-cli
+npm install -g @google/gemini-cli
 gemini
 ```
 
@@ -141,7 +141,7 @@ winget install Anthropic.Claude
 claude
 
 # Gemini CLI
-npm install -g @anthropic-ai/gemini-cli
+npm install -g @google/gemini-cli
 gemini
 ```
 

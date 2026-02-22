@@ -120,7 +120,7 @@ Here's everything you need for this course, completely free:
 
 ### Tier 1: $0/month (100% Free)
 - **Editor:** VS Code + GitHub Copilot Free
-- **AI Assistant:** Gemini CLI (free, 1500 requests/day)
+- **AI Assistant:** Gemini CLI (free tier)
 - **Prototyping:** Bolt.new free tier
 - **Deploy:** Vercel Hobby (free)
 - **Database:** Supabase free or SQLite
@@ -150,7 +150,7 @@ What's your budget?
 │
 ├── $0/month
 │   ├── Want an IDE? → VS Code + Copilot Free
-│   ├── Want terminal? → Gemini CLI (free, 1500 req/day)
+│   ├── Want terminal? → Gemini CLI (free tier)
 │   ├── Want to prototype fast? → Bolt.new free tier
 │   └── Want to deploy? → Vercel Hobby (free)
 │
@@ -182,7 +182,7 @@ What's your budget?
 
 1. **Never pay for something with a free tier** until you've outgrown the free tier
 2. **Apply for the GitHub Student Pack first** — it unlocks the most value
-3. **Gemini CLI is your best friend** for $0 budget — 1500 free requests/day with Gemini 2.5 Pro
+3. **Gemini CLI is a strong option** for $0 budget — free tier available (verify current limits)
 4. **Tools change constantly** — by the time you graduate, half of these will have new pricing. The skills you learn are permanent.
 5. **Ask in class** if you're unsure about costs — we'll always find a free path
 

@@ -270,7 +270,8 @@ Copy AI output → Paste into file → Ship
 | File | Tool | Purpose |
 |------|------|---------|
 | **CLAUDE.md** | Claude Code | Project context + boundaries |
-| **.cursorrules** | Cursor | Code style + project rules |
+| **.cursor/rules/*.mdc** | Cursor | Preferred rules format |
+| **.cursorrules** | Cursor (legacy) | Legacy single-file rules |
 | **GEMINI.md** | Gemini CLI | Same as CLAUDE.md for Gemini |
 | **.github/copilot-instructions.md** | Copilot | Copilot-specific context |
 | **.windsurfrules** | Windsurf | Windsurf-specific rules |
@@ -440,7 +441,7 @@ Longer description if needed.
 |-------|-----|---------|
 | Does it compile? | AI generates invalid syntax | `npm run build` |
 | Do existing tests pass? | AI breaks existing features | `npm test` |
-| Hardcoded values? | AI loves magic numbers | `grep "TODO\|FIXME"` |
+| Hardcoded values? | AI loves magic numbers | `rg -n "hardcode|localhost|12345" src` |
 | Error handling? | AI often skips error cases | Review catch blocks |
 | Types correct? | AI generates loose types | Check for `any` |
 | Over-engineered? | AI adds unrequested features | Compare to plan |
@@ -463,7 +464,7 @@ Longer description if needed.
 | **25-30 min** | VERIFY | Run tests + review diff + commit |
 
 **Submit:**
-- Instruction file (CLAUDE.md / .cursorrules / GEMINI.md)
+- Instruction file (CLAUDE.md / `.cursor/rules/*.mdc` or `.cursorrules` / GEMINI.md)
 - Git log showing your atomic commit
 - 100-word reflection on how EPCV changed your workflow
 

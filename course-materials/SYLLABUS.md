@@ -102,7 +102,7 @@ Students choose their preferred AI coding tools. The course teaches **principles
    - 1 full year of Cursor Pro free (normally $20/month)
 
 3. **Get a Gemini API key** — [aistudio.google.com](https://aistudio.google.com)
-   - Gemini CLI is completely free: 1,500 requests/day with Gemini 2.5 Pro
+   - Gemini CLI has a free tier (limits can change; check current quotas in official docs)
 
 4. **Install Git and create a GitHub account** — [github.com](https://github.com)
 

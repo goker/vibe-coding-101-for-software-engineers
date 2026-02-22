@@ -14,7 +14,7 @@
 By the end of this week, students will be able to:
 
 1. **Apply** the Explore → Plan → Code → Verify (EPCV) cycle to add features to existing codebases (Bloom's: Apply)
-2. **Create** instruction files (CLAUDE.md, .cursorrules, GEMINI.md) that provide persistent project context to AI tools (Bloom's: Create)
+2. **Create** instruction files (CLAUDE.md, Cursor rules, GEMINI.md) that provide persistent project context to AI tools (Bloom's: Create)
 3. **Implement** a disciplined git workflow for AI-assisted development with atomic commits (Bloom's: Apply)
 4. **Evaluate** AI-generated code against quality criteria before committing (Bloom's: Evaluate)
 
@@ -64,7 +64,7 @@ This is "pure vibe coding." It works for throwaway projects. It fails for anythi
 ### The Solution: EPCV
 
 ```
-EXPLORE → PLAN → CODE → COMMIT (repeat)
+EXPLORE → PLAN → CODE → VERIFY (repeat)
    │         │        │        │
    │         │        │        └─ Verify + commit atomically
    │         │        └─ AI generates, you guide
@@ -311,7 +311,8 @@ Instruction files are **context engineering at the project level.** They persist
 | File | Tool(s) | Location | Purpose |
 |------|---------|----------|---------|
 | **CLAUDE.md** | Claude Code | Project root | Project context, commands, boundaries |
-| **.cursorrules** | Cursor | Project root | IDE-level instructions, code style |
+| **.cursor/rules/*.mdc** | Cursor | `.cursor/rules/` | Preferred Cursor rules format |
+| **.cursorrules** | Cursor (legacy) | Project root | Legacy single-file rules format |
 | **GEMINI.md** | Gemini CLI | Project root | Same as CLAUDE.md for Gemini |
 | **.github/copilot-instructions.md** | GitHub Copilot | `.github/` folder | Copilot-specific context |
 | **.windsurfrules** | Windsurf | Project root | Windsurf-specific rules |
@@ -410,7 +411,7 @@ The most effective instruction files follow this structure:
 - Always run tests before committing
 ```
 
-**Same content for .cursorrules** (Cursor):
+**Same content for `.cursor/rules/project.mdc`** (Cursor, preferred):
 ```
 You are working on MyApp, a Next.js project.
 When generating code:
@@ -420,7 +421,7 @@ When generating code:
 Commands: npm run dev, npm test
 ```
 
-**Same content for GEMINI.md** (Gemini CLI):
+**Same content for `GEMINI.md`** (Gemini CLI):
 ```markdown
 # Project: MyApp
 ## Commands
@@ -515,7 +516,7 @@ Before committing any AI-generated code, check:
 |-------|-----|-----|
 | **Does it compile/run?** | AI sometimes generates invalid syntax | `npm run build` |
 | **Do existing tests pass?** | AI might break existing features | `npm test` |
-| **Are there hardcoded values?** | AI loves magic numbers and strings | `grep -r "TODO\|FIXME\|hardcode"` |
+| **Are there hardcoded values?** | AI loves magic numbers and strings | `rg -n "hardcode|localhost|12345" src` |
 | **Is error handling present?** | AI often skips error cases | Review catch blocks |
 | **Are types correct?** | AI generates loose types | Check for `any` |
 | **Is it over-engineered?** | AI adds features you didn't ask for | Compare to plan |
@@ -534,7 +535,7 @@ Apply the EPCV cycle to add ONE new feature to your Week 3 prototype.
 ### Steps
 
 **Step 1: Setup (5 min)**
-- Create an instruction file for your project (CLAUDE.md, .cursorrules, or GEMINI.md)
+- Create an instruction file for your project (CLAUDE.md, `.cursor/rules/*.mdc` or `.cursorrules`, or GEMINI.md)
 - Create a feature branch: `git checkout -b feat/your-feature`
 
 **Step 2: EXPLORE (5 min)**

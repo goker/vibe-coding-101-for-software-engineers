@@ -16,9 +16,9 @@ This extra lesson provides comprehensive guidance on writing Product Requirement
 
 | Resource | Description |
 |----------|-------------|
-| [Slides](slides/prd-preparation-slides.md) | 23-slide presentation covering all PRD sections |
+| [Slides (PDF)](<slides/How to Prepare a PRD By Goker Ezberci.pdf>) | Presentation covering all PRD sections |
 | [Checklist](checklist.md) | One-page printable quality checklist |
-| [Examples](../../../templates/examples/) | 24 complete PRD examples |
+| [Examples](../../../../templates/examples/) | 24 complete PRD examples |
 
 ---
 

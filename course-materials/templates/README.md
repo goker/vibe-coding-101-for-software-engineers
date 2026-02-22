@@ -6,6 +6,8 @@ PRD (Product Requirements Document) templates and examples for AI-assisted devel
 
 | File | Description |
 |------|-------------|
+| [**prd-template.md**](prd-template.md) | Canonical PRD template used across the course |
+| [**claude-md-template.md**](claude-md-template.md) | Starter instruction-file template for Claude Code |
 | [**examples/**](examples/) | 24 complete PRD examples across beginner, intermediate, and advanced levels |
 
 ## PRD Examples
@@ -18,4 +20,4 @@ The [examples/](examples/) folder contains 24 ready-to-use PRDs covering a wide 
 
 **Advanced** — Real-time Chat, Finance Dashboard, SaaS Starter, AI Code Review, and more
 
-Each example follows the course PRD structure with all required sections: Overview, Features, Non-Goals, Technical Constraints, Success Criteria, Phases, and Agent Rules.
+Most examples follow the full course PRD structure: Overview, Core Features, Non-Goals, Technical Constraints, Success Criteria, Implementation Phases, and Agent Rules.

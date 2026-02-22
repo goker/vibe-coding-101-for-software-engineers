@@ -19,7 +19,7 @@ All lecture content, slides, templates, and resources for [Vibe Coding 101 for S
 | [Week 2](weeks/week-02/) | How AI Coding Actually Works | Available |
 | [Week 3](weeks/week-03/) | Ship It Week — PRD → Prototype → Deploy | Available |
 | [Week 4](weeks/week-04/) | Iteration & Code Review — Context Engineering | Available |
-| Week 5 | Testing AI-Generated Code | Coming Soon |
+| [Week 5](weeks/week-05/) | Testing AI-Generated Code | Available |
 | Week 6 | Architecture & Design Patterns | Coming Soon |
 | Week 7 | Security & AI Vulnerabilities | Coming Soon |
 | Week 8 | Skills, Agents & Automation | Coming Soon |

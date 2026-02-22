@@ -24,7 +24,7 @@ A **12-week course** teaching disciplined AI-assisted development for software e
 | 2 | [How AI Coding Actually Works](course-materials/weeks/week-02/) | LLMs, Tokens & Context |
 | 3 | [Ship It Week](course-materials/weeks/week-03/) | PRD → Prototype → Deploy |
 | 4 | [Iteration & Code Review](course-materials/weeks/week-04/) | Context Engineering |
-| 5 | Testing AI-Generated Code | Why AI Code Needs More Testing |
+| 5 | [Testing AI-Generated Code](course-materials/weeks/week-05/) | Why AI Code Needs More Testing |
 | 6 | Architecture & Design Patterns | Guiding AI Toward Good Patterns |
 | 7 | Security & AI Vulnerabilities | Package Hallucination & Prompt Injection |
 | 8 | Skills, Agents & Automation | Building Reusable AI Workflows |
@@ -33,7 +33,7 @@ A **12-week course** teaching disciplined AI-assisted development for software e
 | 11 | Ethics, Governance & Feature Freeze | Ship Responsibly |
 | 12 | Demo Day & Launch | Present, Ship, Celebrate |
 
-> Weeks 1–4 are complete with lecture notes and slides. Weeks 5–12 are coming soon.
+> Weeks 1–5 are available with lecture notes and slides. Weeks 6–12 are coming soon.
 
 ### Two Milestones
 
@@ -62,7 +62,7 @@ A **12-week course** teaching disciplined AI-assisted development for software e
 
 | Tool | Purpose | Link |
 |------|---------|------|
-| **Gemini CLI** | Free AI coding (1,500 req/day) | [aistudio.google.com](https://aistudio.google.com) |
+| **Gemini CLI** | Free-tier AI coding in terminal | [aistudio.google.com](https://aistudio.google.com) |
 | **VS Code** | Code editor | [code.visualstudio.com](https://code.visualstudio.com) |
 | **GitHub** | Version control + CI/CD | [github.com](https://github.com) |
 | **Vercel / Render** | Free deployment | [vercel.com](https://vercel.com) |
