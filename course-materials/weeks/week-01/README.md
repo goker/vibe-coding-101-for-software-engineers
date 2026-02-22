@@ -239,7 +239,7 @@ Reflect on today's session:
 - [Simon Willison: Not all AI-assisted programming is vibe coding](https://simonwillison.net/2025/Mar/19/vibe-coding/)
 
 ### Course Templates
-- [PRD Template](../../templates/prd-template.md)
+- [PRD Template](../../templates/examples)
 
 ### Tool Documentation
 - [Gemini CLI Documentation](https://ai.google.dev/gemini-cli)
