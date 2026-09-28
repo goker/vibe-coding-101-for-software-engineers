@@ -66,6 +66,7 @@ A **12-week course** teaching disciplined AI-assisted development for software e
 | **VS Code** | Code editor | [code.visualstudio.com](https://code.visualstudio.com) |
 | **GitHub** | Version control + CI/CD | [github.com](https://github.com) |
 | **Vercel / Render** | Free deployment | [vercel.com](https://vercel.com) |
+| **[MySpec](https://myspec.dev)** | Spec-driven requirements discovery & 4-file bundle (Free: 20 projects, 100 specs) | [myspec.dev](https://myspec.dev) |
 
 ### Student Discounts
 
